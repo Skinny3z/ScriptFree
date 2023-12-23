@@ -1,0 +1,36 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+OrionLib:MakeNotification({
+	Name = "New Features",
+	Content = "Blox Fruit Script, And New Features Coming SOON!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+local Window = OrionLib:MakeWindow({Name = "Skinny Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local ScriptTab = Window:MakeTab({
+    Name = "Scripts",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local Section = ScriptTab:AddSection({
+    Name = "Scripts"
+})
+
+ScriptTab:AddButton({
+    Name = "TPS Script | W-Skinny",
+    Callback = function()
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinny3z/ScriptTab1/main/HubFreeCOEMS"))()
+      end
+})
+
+ScriptTab:AddButton({
+    Name = "Blade Ball Hub | W-Skinny",
+    Callback = function()
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/Skinny3z/sdf/main/sdf'))()
+      end
+})
