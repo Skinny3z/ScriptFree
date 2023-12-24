@@ -24,13 +24,20 @@ local Section = ScriptTab:AddSection({
 ScriptTab:AddButton({
     Name = "TPS Script | W-Skinny",
     Callback = function()
-           loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinny3z/ScriptTab1/main/HubFreeCOEMS"))()
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinny3z/ScriptTab1/main/HubFreeCOEMS"))();
       end
 })
 
 ScriptTab:AddButton({
     Name = "Blade Ball Hub | W-Skinny",
     Callback = function()
-           loadstring(game:HttpGet('https://raw.githubusercontent.com/Skinny3z/sdf/main/sdf'))()
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/Skinny3z/sdf/main/sdf'))();
+      end
+})
+
+ScriptTab:AddButton({
+    Name = "Blox Fruits | W-Skinny",
+    Callback = function()
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/Skinny3z/BloxScript/main/SkinnyHubV1.txt'))();
       end
 })
