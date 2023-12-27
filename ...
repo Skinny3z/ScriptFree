@@ -38,6 +38,6 @@ ScriptTab:AddButton({
 ScriptTab:AddButton({
     Name = "Blox Fruits | W-Skinny",
     Callback = function()
-           loadstring(game:HttpGet('https://raw.githubusercontent.com/Skinny3z/BloxScript/main/SkinnyHubV1.txt'))();
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/Skinny3z/ggdfssdfsdfsdsfd/main/Skinny%20hub.txt'))();
       end
 })
