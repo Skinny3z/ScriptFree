@@ -4,7 +4,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 OrionLib:MakeNotification({
 	Name = "New Features",
-	Content = "Blox Fruit Script, And New Features Coming SOON!",
+	Content = "Others Hub, And New Features Coming SOON!",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
