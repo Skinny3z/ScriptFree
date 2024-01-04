@@ -31,13 +31,13 @@ ScriptTab:AddButton({
 ScriptTab:AddButton({
     Name = "Blade Ball Hub | W-Skinny",
     Callback = function()
-           loadstring(game:HttpGet('https://raw.githubusercontent.com/Skinny3z/sdf/main/sdf'))();
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinny3z/sdf/main/sdf"))();
       end
 })
 
 ScriptTab:AddButton({
     Name = "Blox Fruits | W-Skinny",
     Callback = function()
-           loadstring(game:HttpGet('https://raw.githubusercontent.com/Skinny3z/ggdfssdfsdfsdsfd/main/Skinny%20hub.txt'))();
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinny3z/ggdfssdfsdfsdsfd/main/Skinny%20hub.txt"))();
       end
 })
